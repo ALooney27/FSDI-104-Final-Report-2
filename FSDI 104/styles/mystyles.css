@@ -1,0 +1,139 @@
+/*global*/
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap%27");
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+
+#venom {
+  background-color: black;
+}
+a {
+  text-decoration: none;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 30vh;
+  background-color: rgb(1, 198, 198);
+}
+header h1 {
+  color: black;
+  font-size: 50px;
+}
+nav.menu a {
+  color: white;
+  margin-right: 1rem;
+  font-weight: bold;
+}
+
+/*form*/
+h1 {
+  text-align: center;
+  background-color: rgb(1, 198, 198);
+}
+
+h4 {
+  color: white;
+}
+
+.mb-3 {
+  display: flex;
+  justify-content: center;
+}
+
+.form-control {
+  width: 80%;
+  margin-bottom: 1rem;
+  padding: 3px;
+}
+.form-label {
+  width: 60px;
+  margin-right: 1rem;
+  align-items: left;
+}
+.btn {
+  background-color: rgb(236, 145, 71);
+  color: black;
+  padding: 10px;
+  border: none;
+  margin-left: 80%;
+}
+
+.error {
+  border: 1px solid red;
+}
+
+#pets {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 1rem;
+}
+
+.pet {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.formControl {
+  width: 80%;
+}
+
+#center {
+  width: 1500px;
+  height: 700px;
+  object-position: right;
+}
+
+#bottom {
+  width: 1500px;
+  height: 400px;
+  object-position: right;
+}
+
+table {
+  text-align: left;
+  width: 1500px;
+  background-color: lightgrey;
+}
+
+thead {
+  border: 1px solid black;
+}
+
+#raiden {
+  width: 250px;
+}
+
+#deadpool {
+  width: 250px;
+  height: 200px;
+}
+
+#joy {
+  width: 250px;
+}
+
+#cruella {
+  width: 250px;
+}
+
+#raiden-div {
+  border: 2px solid black;
+  width: 250px;
+}
+
+#deadpool-div {
+  border: 2px solid black;
+  width: 250px;
+}
+
+#joy-div {
+  border: 2px solid black;
+  width: 250px;
+}
